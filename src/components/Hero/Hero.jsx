@@ -2,7 +2,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import Navbar from "../Navbar/Navbar";
 import Blog from "../../assets/blob.svg";
 import HeroPng from "../../assets/hero.png";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 export const FadeUp = (delay) => {
     return {
@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center py-14 md:py-0 relative z-20">
           <div className="text-center md:text-left space-y-10 lg:max-w-[400px]">
             <motion.h2 variants={FadeUp(0.6)} initial="initial" animate="animate" className="text-3xl lg:text-5xl  space-y-10 font-bold !leanding-snug">
-              Let's Learn to build <span className="text-secondary">Skill</span>{" "}
+              Let Learn to build <span className="text-secondary">Skill</span>{" "}
               for your mind{" "}
             </motion.h2>
             <motion.div variants={FadeUp(0.8)} initial="initial" animate="animate"  className="flex justify-center md:justify-start">
