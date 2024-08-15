@@ -32,7 +32,7 @@ const Hero = () => {
         {/* Brand Info  */}
         <div className="flex flex-col justify-center py-14 md:py-0 relative z-20">
           <div className="text-center md:text-left space-y-10 lg:max-w-[400px]">
-            <motion.h2 variants={FadeUp(0.6)} initial="initial" animate="animate" className="text-3xl lg:text-5xl  space-y-10 font-bold !leanding-snug">
+            <motion.h2 variants={FadeUp(0.6)} initial="initial" animate="animate" className="text-3xl lg:text-5xl  space-y-10 font-bold !leading-snug">
               Let Learn to build <span className="text-secondary">Skill</span>{" "}
               for your mind{" "}
             </motion.h2>
