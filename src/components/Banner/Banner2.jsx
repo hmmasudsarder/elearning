@@ -1,4 +1,3 @@
-import { FaBookReader } from "react-icons/fa";
 import BannerPng from "../../assets/banner.png";
 import { motion } from "framer-motion";
 
