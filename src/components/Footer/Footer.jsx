@@ -1,8 +1,9 @@
-import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
 
 const Footer = () => {
   return (
-    <Footer className="py-28 bg-[#f7f7ff]">
+    <footer className="py-28 bg-[#f7f7ff]">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-4">
           {/* Firse Section  */}
@@ -67,11 +68,20 @@ const Footer = () => {
               <a href="#">
                 <FaWhatsapp className="cursor-pointer hover:text-primary hover:scale-105 duration-200"/>
               </a>
+              <a href="#">
+                <FaInstagram className="cursor-pointer hover:text-primary hover:scale-105 duration-200"/>
+              </a>
+              <a href="#">
+                <TbWorldWww className="cursor-pointer hover:text-primary hover:scale-105 duration-200"/>
+              </a>
+              <a href="#">
+                <FaYoutube className="cursor-pointer hover:text-primary hover:scale-105 duration-200"/>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </Footer>
+    </footer>
   );
 };
 
