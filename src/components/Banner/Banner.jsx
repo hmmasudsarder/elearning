@@ -33,7 +33,7 @@ const Banner = () => {
             >
               The World's Leading Online <br /> Learning Platform
             </motion.h2>
-            <div className="flex flex-col gap-6 pr-28">
+            <div className="flex flex-col gap-6 lg:pr-28">
               <motion.div
                 variants={FadeUp(0.2)}
                 initial="initial"
